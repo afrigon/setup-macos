@@ -42,6 +42,6 @@ done
 unset item
 
 # Downloads folder
-defaults write com.apple.dock persistent-others -array-add "<dict><key>tile-data</key><dict><key>arrangement</key><integer>2</integer><key>file-data</key><dict><key>_CFURLString</key><string>file:///Users/xehos/Downloads</string><key>_CFURLStringType</key><integer>15</integer></dict></dict><key>tile-type</key><string>directory-tile</string></dict>"
+defaults write com.apple.dock persistent-others -array-add "<dict><key>tile-data</key><dict><key>arrangement</key><integer>2</integer><key>file-data</key><dict><key>_CFURLString</key><string>file://$HOME/Downloads</string><key>_CFURLStringType</key><integer>15</integer></dict></dict><key>tile-type</key><string>directory-tile</string></dict>"
 
 killall Dock
