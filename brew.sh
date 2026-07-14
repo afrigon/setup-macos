@@ -13,10 +13,9 @@ else
 fi
 
 # Casks
+brew install --cask ghostty
 brew install --cask spotify
 brew install --cask discord
-brew install --cask iterm2
-brew install --cask rectangle-pro
 
 # 1password
 brew install --cask 1password
@@ -34,6 +33,8 @@ brew install git
 brew install tmux
 brew install fish
 brew install jq
+brew install gh
+brew install awscli
 
 # pyhton
 brew install python

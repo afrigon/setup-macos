@@ -25,13 +25,12 @@ defaults delete com.apple.dock persistent-others
 
 # Dock apps
 declare -a items=( \
-    "/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" \
-    "/Applications/Iterm.app" \
+    "/Applications/Google Chrome.app/" \
+    "/Applications/Ghostty.app" \
     "/Applications/Xcode.app" \
     "/Applications/Spotify.app" \
     "/Applications/Discord.app" \
     "/System/Applications/Messages.app" \
-    "/System/Applications/Mail.app" \
     "/System/Applications/Calendar.app" \
     "/System/Applications/System Settings.app" \
 )

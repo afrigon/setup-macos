@@ -10,10 +10,10 @@ confirm "Make sure terminal has the 'Full Disk Access' permission, otherwise som
 
 xcode-select --install
 
-source ./defaults.sh
 source ./brew.sh
-# source ./xcode.sh not sure if this is ready or not
+source ./defaults.sh
 source ./dock.sh
+source ./xcode.sh
 
 confirm "Enable 1password-cli by navigating to 1password settings > Developer and selecting Integrate with 1password CLI."
 source ./1password.sh
