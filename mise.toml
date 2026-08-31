@@ -1,0 +1,6 @@
+[settings]
+lockfile = true
+
+[tasks.run]
+description = "Bootstrap the machine"
+run = "bash init.sh"
