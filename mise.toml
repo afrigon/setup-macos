@@ -1,0 +1,3 @@
+[tasks.bootstrap]
+description = "Bootstrap the machine"
+run = "bash init.sh"
